@@ -21,7 +21,7 @@ public class Calculator {
         char operator = sc.next().charAt(0);
 
         double result;
-
+int name;
         switch (operator) {
             case '+':
                 result = num1 + num2;
