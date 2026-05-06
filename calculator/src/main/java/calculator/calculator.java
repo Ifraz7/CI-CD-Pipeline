@@ -15,7 +15,6 @@ public class Calculator {
         System.out.println("+  Addition");
         System.out.println("-  Subtraction");
         System.out.println("*  Multiplication");
-        System.out.println("/  Division");
 
         System.out.print("Enter operator: ");
         char operator = sc.next().charAt(0);
@@ -37,8 +36,7 @@ public class Calculator {
                 result = num1 * num2;
                 System.out.println("Result = " + result);
                 break;
-
-          
+        } // <-- This closing brace was missing in your code!
 
         sc.close();
     }
